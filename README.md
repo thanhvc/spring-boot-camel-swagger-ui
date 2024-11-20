@@ -7,6 +7,14 @@ This repository contains a demo of Spring Boot with Apache Camel and Swagger UI.
 * Swagger UI 2.2.8
 * Hawtio 2.17.7
 
+Build code:
+   
+   mvn clean install
+   
+Run application
+   
+    java -jar target/spring-boot-swagger-0.0.1-SNAPSHOT.jar
+
 **swagger doc:** http://localhost:8080/swagger/index.html
 
     http://localhost:8080/api/person
